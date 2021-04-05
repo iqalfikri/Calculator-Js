@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.title{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #00a2c6;
+  /* border: 1px solid; */
+  text-align:center;
+  color: white;
+  /* margin-bottom: 10px; */
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #00c8eb;
+    text-align: right;
+    color: white;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+
+  /* styling */
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.flex-container-row {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.display {
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #5a6263;
+  /* border: 1px solid white; */
+  margin-bottom: 15px;
+  font-size: 2em;
+}
+
+.button {
+  flex-basis: 25%;
+
+  /* sytling */
+  font-size: 1.5em;
+  text-align: center;
+  padding: 40px;
+  border: 1px solid black;
+  background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+  cursor: pointer;
+
+}
+.button:hover {
+  font-weight: bold;
+}
+
+.operator,
+.negatif,
+.equals {
+  background: #00a2c6;
+}
+
+.double {
+  flex-basis: 50%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #abafb0;
+  border-radius: 10px;
+  /* border: 1px solid; */
+  padding: 25px;
+  margin-top: 10px;
+}
+
+.blok {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #00c8eb;
+  border-radius: 5px;
+  color: white;
+  /* border: 1px solid; */
+  padding: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.history {
+  width: 80%;
+  margin: 30px auto 0 auto;
+  overflow: scroll;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+   width: 100%;
+   border: 1px solid #ddd;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 16px;
+}
+
+th {
+   background-color: #00a2c6;
+   color: white;
+}
+
+tr:nth-child(even) {
+   background-color: #d2d2d2;
+}
+
+@media screen and (max-width: 518px) {
+   .button {
+       padding: 18px;
+   }
+   .History {
+     width: 100%;
+   }
+}
