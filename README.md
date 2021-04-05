@@ -1,6 +1,6 @@
 # Calculator-Js
-Calculator JavaScript - Dicoding
-Hallo,
+Calculator JavaScript - Dicoding <br>
+Hallo,<br>
 Ini source code salah satu project Web Calculator (Java Script) <br>
 di kelas <b>"Belajar Fundamental Front-End Web Development"</b> Dicoding.
 
